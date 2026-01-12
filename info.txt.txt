@@ -1,0 +1,1 @@
+This project compares AWS EC2 and AWS Lambda using Kiro.
