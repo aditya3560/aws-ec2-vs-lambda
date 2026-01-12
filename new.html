@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AWS EC2 vs AWS Lambda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #232f3e;
+        }
+        .box {
+            background-color: white;
+            padding: 15px;
+            margin: 15px auto;
+            width: 80%;
+            border-radius: 8px;
+            box-shadow: 0 0 5px #aaa;
+        }
+        h2 {
+            color: #ff9900;
+        }
+        ul {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>AWS EC2 vs AWS Lambda (Beginner Friendly)</h1>
+
+<div class="box">
+    <h2>What is AWS EC2?</h2>
+    <p>EC2 is a virtual server where you install OS, software, and manage everything.</p>
+
+    <b>Pros:</b>
+    <ul>
+        <li>Full control of server</li>
+        <li>Good for long-running applications</li>
+        <li>Supports any programming language</li>
+    </ul>
+
+    <b>Cons:</b>
+    <ul>
+        <li>You must manage server</li>
+        <li>More maintenance</li>
+        <li>Costs even when running idle</li>
+    </ul>
+</div>
+
+<div class="box">
+    <h2>What is AWS Lambda?</h2>
+    <p>Lambda runs your code without managing servers. AWS handles everything.</p>
+
+    <b>Pros:</b>
+    <ul>
+        <li>No server management</li>
+        <li>Automatic scaling</li>
+        <li>Pay only when code runs</li>
+    </ul>
+
+    <b>Cons:</b>
+    <ul>
+        <li>Execution time limit</li>
+        <li>Not suitable for long tasks</li>
+        <li>Limited customization</li>
+    </ul>
+</div>
+
+<div class="box">
+    <h2>Which One Should You Choose?</h2>
+    <ul>
+        <li><b>Choose EC2</b> if you want full control and long-running apps.</li>
+        <li><b>Choose Lambda</b> if you want simple, serverless, and low-cost apps.</li>
+    </ul>
+</div>
+
+</body>
+</html>
